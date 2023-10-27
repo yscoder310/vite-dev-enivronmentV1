@@ -4,6 +4,7 @@ export default {
   setupFilesAfterEnv: ["<rootDir>setupTests.ts"],
   testMatch: ["<rootDir>/src/**/*.(test|spec).(ts|tsx)"],
   testPathIgnorePatterns: ["<rootDir>/tests/e2e/"],
+  moduleDirectories: ["node_modules", "src"],
   transform: {
     // "^.+\\.svg$": "jest-transform-stub",
     "^.+\\.(js|jsx|ts|tsx)$": "ts-jest",
